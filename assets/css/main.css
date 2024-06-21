@@ -34,7 +34,7 @@ body {
 }
 
 .content {
-	white-space: pre-wrap;
+	white-space: pre-line;
 	text-align: left;
 }
 
