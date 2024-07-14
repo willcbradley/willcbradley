@@ -1,3 +1,3 @@
-It's a portfolio, but probably not the kind you expect:
+Personal Website:
 
 willcbradley.com
