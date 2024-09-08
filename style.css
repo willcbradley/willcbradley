@@ -61,7 +61,7 @@ h1.body-heading {
 */
 
 #home {
-    background-color: #4B7F52;
+    background-color: #ffffff;
     max-width: 60%;
     margin-left: 15%;
     margin-right: 15%;
@@ -72,7 +72,7 @@ h1.body-heading {
 }
 
 #reading {
-    background-color: #4B7F52;
+    background-color: #ffffff;
     max-width: 60%;
     margin-left: 15%;
     margin-right: 15%;
@@ -83,7 +83,7 @@ h1.body-heading {
 }
 
 #now {
-    background-color: #4B7F52;
+    background-color: #ffffff;
     max-width: 60%;
     margin-left: 15%;
     margin-right: 15%;
@@ -99,7 +99,7 @@ h1.body-heading {
 }
 
 #resume {
-    background-color: #4B7F52;
+    background-color: #ffffff;
     max-width: 60%;
     margin-left: 15%;
     margin-right: 15%;
@@ -113,12 +113,12 @@ h1.body-heading {
 
 
 .everything-container {
-    color: #F8F4F9;
+    color: #0F1A10;
 
 }
 
 a {
-    color: #C6EBBE;
+    color: #5A9963;
     text-decoration: none;
     font-weight: 500;
 }
@@ -142,14 +142,14 @@ a:hover {
 }
 
 .wx-details {
-    color: #F8F4F9;;
+    color: #0F1A10;;
 }
 
 
 @media (min-width: 760px) {
 
     #name-header {
-        color: #F8F4F9;
+        color: #0F1A10;
         font-size: 6em;
         font-weight: bold;
         text-decoration: none;
@@ -172,7 +172,7 @@ a:hover {
 @media (max-width: 760px) {
 
     #name-header {
-        color: #F8F4F9;
+        color: #0F1A10;
         font-size: 14vw;
         font-weight: bold;
         text-decoration: none;
