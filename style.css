@@ -240,6 +240,14 @@ main {
         margin-bottom: 100px;
     }
 
+    #down-arrow {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 204px;
+        margin-bottom: 204px;
+    }
+
 }
 
     
