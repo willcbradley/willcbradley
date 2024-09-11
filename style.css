@@ -191,8 +191,8 @@ main {
 
     #headline {
         text-align: center;
-        margin-left: 26.875%;
-        margin-right: 26.875%;
+        margin-left: auto;
+        margin-right: auto;
         margin-top: 204px;
         margin-bottom: 20px;
         font-size: 15vw;
@@ -234,7 +234,7 @@ main {
     }
 
     .subtitle {
-        font-size: 4.5vw;
+        font-size: 6vw;
         color: #679f69;
         font-weight: 600;
         margin-bottom: 100px;
@@ -244,8 +244,8 @@ main {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 104px;
-        margin-bottom: 104px;
+        margin-top: 80px;
+        margin-bottom: 80px;
     }
 
     .cell {
@@ -256,7 +256,7 @@ main {
         padding-bottom: 100px;
         margin: 0px;
         text-align: center;
-        font-size: 3vw;
+        font-size: 5vw;
         color: #679f69;
         cursor: pointer;
     }
