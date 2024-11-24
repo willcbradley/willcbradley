@@ -11,8 +11,20 @@ a:hover {
     text-decoration: underline;
 }
 
+.arrow {
+    font-size: 1vw;
+}
+
+#auto-top-margin {
+    margin-top: 0px;
+}
+
 .cell > a:hover {
     text-decoration: none;
+}
+
+html {
+    overflow-y: scroll;
 }
 
 .body-copy {
@@ -70,6 +82,14 @@ a:hover {
     margin-bottom: 20px;
     font-size: 7.333333333vw;
     color: #679f69;
+}
+
+.home-button {
+    position: sticky;
+    top: 100px;
+    left: 100px;
+    width: 75px;
+    height: 75px;
 }
 
 html {
@@ -144,6 +164,14 @@ main {
     text-align: left;
 }
 
+.page-body-resume {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    text-align: left;
+}
+
+
 @media (min-width: 761px) and (max-width: 1000px) {
     #headline {
         font-size: 8vw;
@@ -184,6 +212,15 @@ main {
 }
 
 @media (max-width: 760px) { 
+    
+    .home-button {
+        position: sticky;
+        top: 30px;
+        left: 30px;
+        width: 50px;
+        height: 50px;
+    }
+    
     .table {
         grid-template-columns: 1fr; 
         grid-template-rows: repeat(4, auto); 
