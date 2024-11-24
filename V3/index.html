@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Will Bradley</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+
+    </header>
+
+    <main>
+        <h1 id="headline">Will Bradley</h1>
+
+        <p id="subhead"><i>"The world's kindest supervillain."</i></p>
+
+        <img src="Down Arrow.png" id="down-arrow">
+
+        <div class="table-container" id="return-scroll">
+            <div class="table">
+                <div class="row">
+                    <div class="cell" data-link="./now"><a class="table-link">Now</a></div>
+                    <div class="cell" data-link="./books"><a class="table-link">Books</a></div>
+                </div>
+                <div class="row">
+                    <div class="cell" data-link="./about"><a class="table-link">About</a></div>
+                    <div class="cell" data-link="mailto:willcbradleycontact@gmail.com"><a class="table-link">Contact</a></div>                </div>
+            </div>
+        </div>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+                document.querySelectorAll('.cell').forEach(cell => {
+                    cell.addEventListener('click', () => {
+                        const link = cell.getAttribute('data-link');
+                        if (link) {
+                            window.location.href = link;
+                        }
+                    });
+                });
+            });
+        </script>
+
+    </main>
+
+    <footer>
+        <p></p>
+    </footer>
+
+    <script src="scripts.js"></script> <!-- Optional: Link to a JS file -->
+</body>
+</html>
