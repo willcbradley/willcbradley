@@ -1,17 +1,22 @@
 <svg width="1092" height="1092" viewBox="0 0 1092 1092" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_35_13)">
-<rect width="1092" height="1092" fill="white"/>
-<rect x="217" y="561" width="658" height="459" fill="white" stroke="#679F69" stroke-width="50"/>
-<rect x="451" y="761" width="191" height="259" fill="white" stroke="#679F69" stroke-width="50"/>
-<rect x="501" y="1004" width="91" height="259" fill="white" stroke="white" stroke-width="50"/>
-<rect x="774" y="229" width="152" height="180" fill="white" stroke="#679F69" stroke-width="50"/>
-<path d="M73.5303 522.25L546.5 89.8722L1019.47 522.25H73.5303Z" fill="white" stroke="#679F69" stroke-width="50"/>
-<rect x="824" y="286" width="52" height="180" fill="white" stroke="white" stroke-width="50"/>
-<rect x="242" y="473" width="608" height="129" fill="white"/>
-</g>
-<defs>
-<clipPath id="clip0_35_13">
-<rect width="1092" height="1092" fill="white"/>
-</clipPath>
-</defs>
+<line x1="429" y1="1025" x2="429" y2="719" stroke="#679F69" stroke-width="50"/>
+<path d="M853 1023.5L853 518.5" stroke="#679F69" stroke-width="50"/>
+<line x1="452" y1="744" x2="645" y2="744" stroke="#679F69" stroke-width="50"/>
+<line x1="663" y1="719" x2="663" y2="1021" stroke="#679F69" stroke-width="50"/>
+<line x1="638" y1="1000" x2="878" y2="1000" stroke="#679F69" stroke-width="50"/>
+<line x1="828" y1="500" x2="972" y2="500" stroke="#679F69" stroke-width="50"/>
+<path d="M528 77.3225L807.237 355.915" stroke="#679F69" stroke-width="50"/>
+<path d="M894.238 435.531L955.615 493.922" stroke="#679F69" stroke-width="50"/>
+<path d="M136.652 493.647L563 77" stroke="#679F69" stroke-width="50"/>
+<line x1="452" y1="1000" x2="214" y2="1000" stroke="#679F69" stroke-width="50"/>
+<line y1="-25" x2="505" y2="-25" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 214 1025)" stroke="#679F69" stroke-width="50"/>
+<line y1="-25" x2="144" y2="-25" transform="matrix(-1 0 0 1 264 525)" stroke="#679F69" stroke-width="50"/>
+<line x1="902" y1="435" x2="902" y2="229" stroke="#679F69" stroke-width="50"/>
+<line x1="927" y1="254" x2="775" y2="254" stroke="#679F69" stroke-width="50"/>
+<line x1="800" y1="230" x2="800" y2="350" stroke="#679F69" stroke-width="50"/>
+<path d="M972 475V525H1022L972 475Z" fill="#679F69"/>
+<path d="M120 475V525H70L120 475Z" fill="#679F69"/>
+<rect x="877" y="403" width="20" height="51" fill="#679F69"/>
+<rect x="790" y="324" width="35" height="50" fill="#679F69"/>
+<path d="M789.84 373.344C789.84 373.451 789.777 373.501 789.902 373.501C789.986 373.501 790.028 373.617 790.028 373.689" stroke="#679F69" stroke-width="0.5" stroke-linecap="round"/>
 </svg>
