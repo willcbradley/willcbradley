@@ -82,7 +82,7 @@ h2 {
 .flex-container {
     display: flex;
     flex-direction: column;
-    gap: 0.6rem;
+    gap: 0.2rem;
 }
 
 .idea-body, 
