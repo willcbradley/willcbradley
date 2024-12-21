@@ -91,6 +91,13 @@ button {
     font-style: italic;
 }
 
+.sticky {
+    position: sticky;
+    background-color: #fff;
+    padding-bottom: 1rem;
+    top: 0;
+}
+
 .title {
     color: #679f69;
     font-size: 3rem;
