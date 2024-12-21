@@ -1,8 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
 
+* {
+    padding: 0;
+    margin: 0;
+    line-height: 1.5;
+    font-family: "Open Sans", serif;
+}
 
-a.table-link, a {
+a {
     text-decoration: none;
     color: #679f69;
 }
@@ -11,295 +22,91 @@ a:hover {
     text-decoration: underline;
 }
 
-.arrow {
-    font-size: 1vw;
+img {
+    max-width: 100%;
 }
 
-#auto-top-margin {
-    margin-top: 0px;
+button {
+    font-family: inherit;
+    background-color: none;
+    border: none;
 }
 
-.cell > a:hover {
-    text-decoration: none;
+.body-container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 540px;
+    margin-top: 3rem;
 }
 
-html {
-    overflow-y: scroll;
+.bold {
+    font-weight: 650;
 }
 
-.body-copy {
-    font-size: 1.75vw;
-    color: #0f1a10;
-    margin-bottom: 20px;
-    display: inline;
-}
-
-.book {
-    margin-bottom: 20px;
-    margin-top: 20px;
-}
-
-.cell {
-    border: 2px solid;
-    border-color: #679f69;
-    border-collapse: collapse;
-    padding-top: 200px;
-    padding-bottom: 200px;
-    margin: 0px;
+.card {
+    font-size: 1.2rem;
     text-align: center;
-    font-size: 3vw;
+    flex: 1;
+    border: 2px solid #679f69;
     color: #679f69;
-    cursor: pointer;
+    border-radius: 5px;
+    padding-block: 2.4rem;
+    background: linear-gradient(to left, #fff 50%, #679f69 50%) right;
+    background-size: 200%;
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.23, 1);
 }
 
-.cell:hover {
-    border: 2px solid;
+.card:hover {
+    color: #fff;
     border-color: #679f69;
+    background-position: left;
+}
+
+.card:active {
     background-color: #679f69;
-    color: #f5f5f5;
+    color: #fff;
+    border-color: #679f69;
 }
 
-#down-arrow {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 304px;
-    margin-bottom: 304px;
+.dot-point {
+    line-height: 1;
+    margin-bottom: 0;
 }
 
-.inter-normal {
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 200;
-    font-style: normal;
-  }
-
-#headline {
-    text-align: center;
-    margin-left: 26.875%;
-    margin-right: 26.875%;
-    margin-top: 204px;
-    margin-bottom: 20px;
-    font-size: 7.333333333vw;
-    color: #679f69;
-}
-
-.home-button {
-    position: sticky;
-    top: 100px;
-    left: 100px;
-    width: 75px;
-    height: 75px;
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
-.jumpto-link {
-    scroll-behavior: smooth;
-}
-
-main {  
-    font-family: "Inter", sans-serif;
-    color: #0f1a10;
-}
-
-.reading-subhead {
-    font-size: 1.75vw;
-    font-weight: 600;
-    margin-top: 100px;
-    margin-bottom: 40px;
-}
-
-.row {
-    display: contents;
-}
-
-.side-bar {
+.flex-container {
     display: flex;
-    flex-direction: right;
+    flex-direction: column;
+    gap: 0.6rem;
 }
 
-#subhead {
-    text-align: center;
-    font-size: 1.75vw;
-    margin-bottom: 158px;
+.idea-body, 
+.body-copy {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
 }
 
-.subtitle {
-    font-size: 1.75vw;
-    color: #679f69;
-    font-weight: 600;
-    margin-bottom: 100px;
-}
-
-.table-container .table .cell:hover .table-link {
-    color: #f5f5f5;
-}
-
-.table {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); 
-    gap: 1px; 
-}
-
-.table-container {
-    width: 100%;
-    overflow-x: auto;
+.last-update {
+    font-style: italic;
 }
 
 .title {
-    margin-bottom: 50px;
-    font-size: 7.333333333vw;
     color: #679f69;
-    line-height: 8vw;
+    font-size: 3rem;
+    letter-spacing: -0.05em;
+    margin-bottom: 3rem;
 }
 
-.page-body {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 50%;
-    margin-top: 204px;
-    text-align: left;
+.idea-container {
+    margin-bottom: 3rem;
 }
 
-.page-body-resume {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 50%;
-    text-align: left;
+.idea-subtitle {
+    font-weight: 400;
+    font-size: 1.75rem;
+    color: #679f69;
+    margin-bottom: 2rem;
 }
 
-
-@media (min-width: 761px) and (max-width: 1000px) {
-    #headline {
-        font-size: 8vw;
-    }
-
-    .body-copy {
-        font-size: 2.5vw;
-        color: #0f1a10;
-        margin-bottom: 20px;
-        display: inline;
-    }
-
-    .reading-subhead {
-        font-size: 2.5vw;
-        font-weight: 600;
-        margin-top: 100px;
-        margin-bottom: 40px;
-    }
-
-    .subtitle {
-        font-size: 2.5vw;
-        color: #679f69;
-        font-weight: 600;
-        margin-bottom: 100px;
-    }
-
+.reading-subhead {
+    margin: 2rem 0 0.5rem;
 }
-
-@media (max-width: 1000px) {
-    
-    .title {
-        margin-bottom: 50px;
-        font-size: 7.333333333vw;
-        color: #679f69;
-        line-height: 8vw;
-    }
-
-}
-
-@media (max-width: 760px) { 
-    
-    .home-button {
-        position: sticky;
-        top: 30px;
-        left: 30px;
-        width: 50px;
-        height: 50px;
-    }
-    
-    .table {
-        grid-template-columns: 1fr; 
-        grid-template-rows: repeat(4, auto); 
-    }
-
-    #headline {
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 180px;
-        margin-bottom: 20px;
-        font-size: 15vw;
-        color: #679f69;
-    }
-
-    .reading-subhead {
-        font-size: 4.5vw;
-        font-weight: 600;
-        margin-top: 100px;
-        margin-bottom: 40px;
-    }
-
-    .title {
-        margin-bottom: 50px;
-        font-size: 15vw;
-        color: #679f69;
-        line-height: 15vw;
-        text-align: center;
-        margin-left: -116.75px;
-        margin-right: -116.75px;
-    }
-
-    #subhead {
-        text-align: center;
-        font-size: 3.75vw;
-        margin-bottom: 158px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .cell {
-        font-size: 6vw;
-    }
-
-    .body-copy {
-        font-size: 4.5vw;
-        color: #0f1a10;
-        margin-bottom: 20px;
-        display: inline;
-    }
-
-    .subtitle {
-        font-size: 6vw;
-        color: #679f69;
-        font-weight: 600;
-        margin-bottom: 100px;
-    }
-
-    #down-arrow {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 80px;
-        margin-bottom: 80px;
-    }
-
-    .cell {
-        border: 2px solid;
-        border-color: #679f69;
-        border-collapse: collapse;
-        padding-top: 100px;
-        padding-bottom: 100px;
-        margin: 0px;
-        text-align: center;
-        font-size: 5vw;
-        color: #679f69;
-        cursor: pointer;
-    }
-
-}
-
-    
