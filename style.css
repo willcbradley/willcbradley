@@ -60,6 +60,7 @@ button {
     color: #fff;
     border-color: #679f69;
     background-position: left;
+    text-decoration: none;
 }
 
 .card:active {
