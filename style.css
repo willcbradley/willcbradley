@@ -50,12 +50,12 @@ h2 {
 
 .card {
     font-size: 1.2rem;
-    text-align: center;
+    text-align: left;
     flex: 1;
     border: 2px solid #679f69;
     color: #679f69;
     border-radius: 5px;
-    padding-block: 2.4rem;
+    padding : 2.4rem 2rem;
     background: linear-gradient(to left, #fff 50%, #679f69 50%) right;
     background-size: 200%;
     transition: all 0.5s cubic-bezier(0.42, 0, 0.23, 1);
@@ -91,6 +91,10 @@ h2 {
     margin-bottom: 1rem;
 }
 
+.idea-margin {
+    margin-left: 8px;
+}
+
 .last-update {
     font-style: italic;
 }
@@ -107,6 +111,7 @@ h2 {
     font-size: 3rem;
     letter-spacing: -0.05em;
     margin-bottom: 3rem;
+    /* padding-left: 2rem; */
 }
 
 .idea-back {
