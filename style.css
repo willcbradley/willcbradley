@@ -35,7 +35,11 @@ button {
 
 body {
     overflow: hidden; /* Hides overflow */
-  white-space: nowrap; /* Prevents wrapping */
+
+}
+
+.bold {
+    font-weight: 650;
 }
 
 h2 {
