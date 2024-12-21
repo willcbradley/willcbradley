@@ -11,6 +11,7 @@
     margin: 0;
     line-height: 1.5;
     font-family: "Open Sans", serif;
+    scroll-behavior: smooth;
 }
 
 a {
@@ -95,6 +96,12 @@ button {
     font-size: 3rem;
     letter-spacing: -0.05em;
     margin-bottom: 3rem;
+}
+
+.idea-back {
+    color: #c3c3c3 !important;
+    font-size: 1rem;
+    margin-bottom: 0;
 }
 
 .idea-container {
