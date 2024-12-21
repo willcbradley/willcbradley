@@ -33,6 +33,11 @@ button {
     border: none;
 }
 
+body {
+    overflow: hidden; /* Hides overflow */
+  white-space: nowrap; /* Prevents wrapping */
+}
+
 h2 {
     scroll-margin-top: 10rem;
 }
@@ -42,10 +47,6 @@ h2 {
     margin: 0 auto;
     max-width: 540px;
     margin-top: 3rem;
-}
-
-.bold {
-    font-weight: 650;
 }
 
 .card {
@@ -89,10 +90,7 @@ h2 {
 .body-copy {
     font-size: 1.2rem;
     margin-bottom: 1rem;
-}
-
-.idea-margin {
-    margin-left: 8px;
+    margin-left: 0;
 }
 
 .last-update {
