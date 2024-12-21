@@ -33,6 +33,10 @@ button {
     border: none;
 }
 
+h2 {
+    scroll-margin-top: 10rem;
+}
+
 .body-container {
     width: 90%;
     margin: 0 auto;
