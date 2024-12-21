@@ -33,15 +33,6 @@ button {
     border: none;
 }
 
-body {
-    overflow: hidden; /* Hides overflow */
-
-}
-
-.bold {
-    font-weight: 650;
-}
-
 h2 {
     scroll-margin-top: 10rem;
 }
