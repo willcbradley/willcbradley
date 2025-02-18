@@ -78,6 +78,45 @@ h2 {
     border-color: #474747;
 }
 
+.turing-card {
+    font-size: 1.2rem;
+    text-align: left;
+    flex: 1;
+    border: 2px solid #6792cb;
+    color: #6792cb;
+    border-radius: 5px;
+    padding : 2.4rem 2rem;
+    background: linear-gradient(to left, #fff 50%, #6792cb 50%) right;
+    background-size: 200%;
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.23, 1);
+}
+
+.turing-card:hover {
+    color: #fff;
+    border-color: #6792cb;
+    background-position: left;
+    text-decoration: none;
+}
+
+.turing-card:active {
+    background-color: #6792cb;
+    color: #fff;
+    border-color: #6792cb;
+}
+
+.turing-home-card {
+    font-size: 1.2rem;
+    text-align: left;
+    flex: 1;
+    border: 2px solid #679f69;
+    color: #679f69;
+    border-radius: 5px;
+    padding : 2.4rem 2rem;
+    background: linear-gradient(to left, #fff 50%, #6792cb 50%) right;
+    background-size: 200%;
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.23, 1);
+}
+
 .build-home-card {
     font-size: 1.2rem;
     text-align: left;
