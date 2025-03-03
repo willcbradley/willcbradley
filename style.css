@@ -16,7 +16,7 @@
 
 a {
     text-decoration: none;
-    color: #679f69;
+    color: #6792cb;
 }
 
 .idea-body > a.build-color {
@@ -78,51 +78,12 @@ h2 {
     border-color: #474747;
 }
 
-.turing-card {
+.build-home-card {
     font-size: 1.2rem;
     text-align: left;
     flex: 1;
     border: 2px solid #6792cb;
     color: #6792cb;
-    border-radius: 5px;
-    padding : 2.4rem 2rem;
-    background: linear-gradient(to left, #fff 50%, #6792cb 50%) right;
-    background-size: 200%;
-    transition: all 0.5s cubic-bezier(0.42, 0, 0.23, 1);
-}
-
-.turing-card:hover {
-    color: #fff;
-    border-color: #6792cb;
-    background-position: left;
-    text-decoration: none;
-}
-
-.turing-card:active {
-    background-color: #6792cb;
-    color: #fff;
-    border-color: #6792cb;
-}
-
-.turing-home-card {
-    font-size: 1.2rem;
-    text-align: left;
-    flex: 1;
-    border: 2px solid #679f69;
-    color: #679f69;
-    border-radius: 5px;
-    padding : 2.4rem 2rem;
-    background: linear-gradient(to left, #fff 50%, #6792cb 50%) right;
-    background-size: 200%;
-    transition: all 0.5s cubic-bezier(0.42, 0, 0.23, 1);
-}
-
-.build-home-card {
-    font-size: 1.2rem;
-    text-align: left;
-    flex: 1;
-    border: 2px solid #679f69;
-    color: #679f69;
     border-radius: 5px;
     padding : 2.4rem 2rem;
     background: linear-gradient(to left, #fff 50%, #474747 50%) right;
@@ -145,26 +106,26 @@ h2 {
     font-size: 1.2rem;
     text-align: left;
     flex: 1;
-    border: 2px solid #679f69;
-    color: #679f69;
+    border: 2px solid #6792cb;
+    color: #6792cb;
     border-radius: 5px;
     padding : 2.4rem 2rem;
-    background: linear-gradient(to left, #fff 50%, #679f69 50%) right;
+    background: linear-gradient(to left, #fff 50%, #6792cb 50%) right;
     background-size: 200%;
     transition: all 0.5s cubic-bezier(0.42, 0, 0.23, 1);
 }
 
 .card:hover {
     color: #fff;
-    border-color: #679f69;
+    border-color: #6792cb;
     background-position: left;
     text-decoration: none;
 }
 
 .card:active {
-    background-color: #679f69;
+    background-color: #6792cb;
     color: #fff;
-    border-color: #679f69;
+    border-color: #6792cb;
 }
 
 .dot-point {
@@ -183,6 +144,11 @@ h2 {
     gap: 0.2rem;
 }
 
+.fundamentals-image {
+    border: 1px solid #6792cb;
+    margin-block: 2rem;
+}
+
 .idea-body, 
 .body-copy {
     font-size: 1.2rem;
@@ -198,7 +164,7 @@ h2 {
 }
 
 .index-title {
-    color: #679f69;
+    color: #6792cb;
     font-size: 3rem;
     letter-spacing: -0.05em;
     margin-bottom: 0.8rem;
@@ -207,6 +173,11 @@ h2 {
 
 .last-update {
     font-style: italic;
+}
+
+.medium-header {
+    font-size: 2.5rem;
+    text-wrap: wrap;
 }
 
 .nav-horiz {
@@ -245,8 +216,8 @@ h2 {
     font-size: 1.2rem;
     text-align: left;
     flex: 1;
-    border: 2px solid #679f69;
-    color: #679f69;
+    border: 2px solid #6792cb;
+    color: #6792cb;
     border-radius: 5px;
     padding : 2.4rem 2rem;
     background: linear-gradient(to left, #fff 50%, #A1762B 50%) right;
@@ -276,12 +247,12 @@ h2 {
     font-size: 1.2rem;
     text-align: left;
     flex: 1;
-    border: 2px solid #679f69;
-    color: #679f69;
+    border: 2px solid #6792cb;
+    color: #6792cb;
     margin-top: 2rem;
     border-radius: 5px;
     padding : 0.5rem 1rem;
-    background: linear-gradient(to left, #fff 50%, #679f69 50%) right;
+    background: linear-gradient(to left, #fff 50%, #6792cb 50%) right;
     background-size: 200%;
     transition: all 0.5s cubic-bezier(0.42, 0, 0.23, 1);
 }
@@ -342,19 +313,19 @@ h2 {
 
 .subscribe:hover {
     color: #fff;
-    border-color: #679f69;
+    border-color: #6792cb;
     background-position: left;
     text-decoration: none;
 }
 
 .subscribe:active {
-    background-color: #679f69;
+    background-color: #6792cb;
     color: #fff;
-    border-color: #679f69;
+    border-color: #6792cb;
 }
 
 .title {
-    color: #679f69;
+    color: #6792cb;
     font-size: 3rem;
     letter-spacing: -0.05em;
     margin-bottom: 3rem;
@@ -374,7 +345,7 @@ h2 {
 .idea-subtitle {
     font-weight: 400;
     font-size: 1.75rem;
-    color: #679f69;
+    color: #6792cb;
     margin-bottom: 2rem;
 }
 
