@@ -273,7 +273,7 @@ h2 {
 .sticky {
     position: sticky;
     background-color: #fff;
-    padding-bottom: 1rem;
+    padding-bottom: 0;
     top: 0;
 }
 
