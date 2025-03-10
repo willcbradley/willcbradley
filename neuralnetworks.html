@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will Bradley | Neural Networks</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="body-container idea-container">
+    <div class="idea-margin">
+        <div class="sticky">
+            <h1 class="title idea-title"><a href="./fundamentals" class="medium-header">&larr; AI, M.D.</a></h1>
+        </div>
+        <h2 class="idea-subtitle">Neural Networks</h2>
+
+        <p class="idea-body">Forget everything you know about neurons.</p>
+        <p class="idea-body">Instead of soma and axons, these digital “neurons” are mini linear regression models.</p>
+        <p class="idea-body">The only difference compared to the linear regression we’ve already covered?</p>
+        <p class="idea-body">The output of these models is passed through another function (called an “activation function”) to produce the final output of each neuron.</p>
+        <p class="idea-body">The network is arranged as follows:</p>
+        <img class="fundamentals-image" src="Neural-Networks-Architecture.png" alt="">
+        <p class="idea-body">Data flows from left to right, and each neuron is connected to all other neurons in the adjacent layers.</p>
+        <p class="idea-body">Here, our weights determine the strength of the connection between any two neurons, and the biases add a discrete value to each neuron’s output before it’s passed through the activation function.</p>
+        <p class="idea-body">And so, given an input, neurons compute their values, pass them to one another based on the strengths of their connections, and produce a set of neuron values in the output layer.</p>
+        <p class="idea-body">Don’t be intimidated.</p>
+        <p class="idea-body">If you understand <a target="_blank" href="./regression">linear regression</a>, you understand this.</p>
+        <p class="idea-body">The only difference is that we’re connecting lots of linear regression models together and running their outputs through another function, giving us an extra layer of complexity (and thus more powerful pattern recognition).</p>
+        <p class="idea-body">It's simpler than it looks (at least, for our purposes).</p>
+        <p class="idea-body">Last but not least, let’s discuss <a href="./backpropagation">backpropagation.</a></p>
+        <p class="idea-body"><a href="https://www.geeksforgeeks.org/artificial-neural-networks-and-its-applications/" target="_blank"><i>(image credit)</i></a></p>
+
+        <div class="footer-flex">
+            <a href="./gradientdescent"><button class="subscribe">&larr;</button></a>
+            <a href="./contact" target="_blank"><button class="subscribe">Contact</button></a>
+            <a href="./backpropagation"><button class="subscribe">&rarr;</button></a>
+        </div>
+    </div>
+</body>
+</html>
