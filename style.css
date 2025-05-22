@@ -298,9 +298,6 @@ h2 {
     color: #679f69;
     border-radius: 5px;
     padding : 0.5rem 1rem;
-    background: linear-gradient(to left, #fff 50%, #679f69 50%) right;
-    background-size: 200%;
-    transition: all 0.5s cubic-bezier(0.42, 0, 0.23, 1);
 }
 
 .subscribe-build {
@@ -358,10 +355,12 @@ h2 {
 }
 
 .subscribe:hover {
-    color: #fff;
-    border-color: #679f69;
-    background-position: left;
-    text-decoration: none;
+  transition: 0.2s ease;
+  background-color: #679f69;
+  /* transform: translateY(-1.5px); */
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .subscribe:active {
