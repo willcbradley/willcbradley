@@ -303,60 +303,7 @@ h2 {
     color: #679f69;
     border-radius: 5px;
     padding : 0.5rem 1rem;
-}
-
-.subscribe-build {
-    font-size: 1.2rem;
-    text-align: left;
-    flex: 1;
-    border: 2px solid #474747;
-    color: #474747;
-    margin-top: 2rem;
-    border-radius: 5px;
-    padding : 0.5rem 1rem;
-    background: linear-gradient(to left, #fff 50%, #474747 50%) right;
-    background-size: 200%;
-    transition: all 0.5s cubic-bezier(0.42, 0, 0.23, 1);
-}
-
-.subscribe-build:hover {
-    color: #fff;
-    border-color: #474747;
-    background-position: left;
-    text-decoration: none;
-}
-
-.subscribe-build:active {
-    background-color: #474747;
-    color: #fff;
-    border-color: #474747;
-}
-
-.subscribe-sell {
-    font-size: 1.2rem;
-    text-align: left;
-    flex: 1;
-    border: 2px solid #A1762B;
-    color: #A1762B;
-    margin-top: 2rem;
-    border-radius: 5px;
-    padding : 0.5rem 1rem;
-    background: linear-gradient(to left, #fff 50%, #A1762B 50%) right;
-    background-size: 200%;
-    transition: all 0.5s cubic-bezier(0.42, 0, 0.23, 1);
-}
-
-.subscribe-sell:hover {
-    color: #fff;
-    border-color: #A1762B;
-    background-position: left;
-    text-decoration: none;
-}
-
-.subscribe-sell:active {
-    background-color: #A1762B;
-    color: #fff;
-    border-color: #A1762B;
+    background-color: white;
 }
 
 .subscribe:hover {
@@ -369,9 +316,12 @@ h2 {
 }
 
 .subscribe:active {
-    background-color: #679f69;
-    color: #fff;
-    border-color: #679f69;
+  transition: 0.2s ease;
+  background-color: #679f69;
+  /* transform: translateY(-1.5px); */
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .title {
