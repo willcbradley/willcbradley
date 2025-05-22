@@ -164,6 +164,9 @@ h2 {
 
 .footer-grid {
     display: grid;
+    flex-shrink: 0; /* prevent shrinking */
+    padding-inline: 1rem;
+    background-color: white;
     grid-gap: 0.25rem;
     grid-template-rows: 50% 50%;
     grid-template-columns: 15.5% 15.5% 15.5% 15.5% 15.5% 15.5%;
@@ -171,6 +174,8 @@ h2 {
     width: 100%;
     height: 100px;
     margin-top: 3rem;
+    position: sticky;
+    bottom: 0;
 }
 
 .forward-arrow {
