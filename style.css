@@ -31,6 +31,10 @@ img {
     max-width: 100%;
 }
 
+li {
+    font-size: 1.1rem;
+}
+
 p {
     font-size: 1.1rem;
     margin-bottom: 1rem;
