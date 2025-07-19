@@ -27,6 +27,10 @@ a:hover {
     text-decoration: underline;
 }
 
+h2 {
+    scroll-margin-top: 10rem;
+}
+
 img {
     max-width: 100%;
 }
@@ -55,23 +59,24 @@ ul ul li {
     margin-inline-start: 50px;
 }
 
-.back-arrow {
-    grid-row: 1 / 2;
-    grid-column: 1 / 2;
-}
-
 button {
     font-family: inherit;
     background-color: none;
     border: none;
 }
 
-.black-link {
-    color: #000;
+#medentry-ul {
+    display: none;
 }
 
-h2 {
-    scroll-margin-top: 10rem;
+.back-arrow {
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+}
+
+
+.black-link {
+    color: #000;
 }
 
 .body-container {
@@ -269,7 +274,7 @@ h2 {
 }
 
 .main-li {
-    margin-bottom: 0.25rem;
+    margin-bottom: 0.5rem;
 }
 
 .medium-header {
@@ -341,6 +346,16 @@ h2 {
     font-size: 1.75rem;
     color: #A1762B;
     margin-bottom: 2rem;
+}
+
+.show-toggle {
+    font-size: 1.1rem;
+    color: #679f69;
+    cursor: pointer;
+}
+
+.show-toggle:hover {
+    text-decoration: underline;
 }
 
 .sticky {
