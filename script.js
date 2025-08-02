@@ -61,7 +61,7 @@ try {
     closeBtn.addEventListener('click', closeModal);
 
     // click outside to close
-    window.addEventListener('click', e => {
+    window.addEventListener('pointerdown', e => {
         if (e.target === modal) closeModal();
     });
     });
