@@ -31,6 +31,10 @@ h2 {
     scroll-margin-top: 10rem;
 }
 
+html {
+    scrollbar-gutter: stable;
+}
+
 img {
     max-width: 100%;
 }
