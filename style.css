@@ -436,6 +436,12 @@ button {
     font-size: 2.5rem;
 }
 
+@media (max-width: 640px) {
+    .body-container, .idea-container {
+        margin-top: 0.8rem;
+    }
+}
+
 @media (max-width: 500px) {
     .smallml {
         display: inline;
