@@ -25,9 +25,33 @@ try {
     console.error (error)
 }
 
+// ****** DL Expand/Collapse List
+
+try { 
+    
+    console.log("Alive")
+    const dlList = document.getElementById("dl-ul");
+    const dlShowButton = document.querySelector("#dl-li .show-toggle");
+    const dlHideButton = document.querySelector("#dl-ul .show-toggle");
 
 
+    // Show The List
+    dlShowButton.addEventListener("click", () => {
+        dlList.style.display = "block";
+        dlHideButton.style.display = "block";
+        dlShowButton.style.display = "none";
+    })
 
+    // Close The list
+    dlHideButton.addEventListener("click", () => {
+        dlList.style.display = "none";
+        dlHideButton.style.display = "none";
+        dlShowButton.style.display = "block";
+    })
+
+} catch (error) {
+    console.error (error)
+}
 
 // ****** Video Modal Open/Close Logic
 

@@ -73,6 +73,10 @@ button {
     display: none;
 }
 
+#dl-ul {
+    display: none;
+}
+
 .back-arrow {
     grid-row: 1 / 2;
     grid-column: 1 / 2;
