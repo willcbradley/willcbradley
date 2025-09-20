@@ -301,6 +301,18 @@ button {
     grid-column: 1/4;
 }
 
+.principles-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.principles-toggle {
+    width: 1.75rem;
+    height: 1.75rem;
+    cursor: pointer;
+}
+
 .project-btn {
     grid-row: 2/3;
     grid-column: 4/7;

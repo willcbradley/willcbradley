@@ -1,3 +1,42 @@
+// ****** Principles Switch
+
+try {
+    const mat = document.querySelector("#mat")
+    const mor = document.querySelector("#mor")
+    const morToggle = document.querySelector("#mor-toggle")
+    const matToggle = document.querySelector("#mat-toggle")
+
+    const showMat = () => {
+        mat.style.display = "block"
+        mor.style.display = "none"
+    }
+
+    const showMor = () => {
+        mat.style.display = "none"
+        mor.style.display = "block"
+    }
+
+    if (window.location.hash === "#") {
+        showMor();
+    } else {
+        showMat();
+    }
+
+    matToggle.addEventListener("click", () => {
+        mat.style.display = "none"
+        mor.style.display = "block"
+    })
+
+    morToggle.addEventListener("click", () => {
+        mat.style.display = "block"
+        mor.style.display = "none"
+    })
+} catch (error) {
+    console.error(error)
+}
+
+
+
 // ****** MedEntry Expand/Collapse List
 
 try {
@@ -29,7 +68,6 @@ try {
 
 try { 
     
-    console.log("Alive")
     const dlList = document.getElementById("dl-ul");
     const dlShowButton = document.querySelector("#dl-li .show-toggle");
     const dlHideButton = document.querySelector("#dl-ul .show-toggle");
