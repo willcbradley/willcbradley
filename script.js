@@ -16,7 +16,7 @@ try {
         mor.style.display = "block"
     }
 
-    if (window.location.hash === "#") {
+    if (window.location.hash === "#m") {
         showMor();
     } else {
         showMat();
