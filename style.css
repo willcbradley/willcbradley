@@ -313,6 +313,9 @@ button {
     position: relative;
     bottom: 10px;
     user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-focus-ring-color: transparent;
+    outline: none;
 }
 
 .project-btn {
