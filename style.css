@@ -87,6 +87,10 @@ button {
     color: #000;
 }
 
+.body {
+    padding-bottom: 3rem;
+}
+
 .body-container {
     width: 90%;
     margin: 0 auto;
@@ -209,6 +213,12 @@ button {
 .double-column {
     display: flex;
     gap: 0.25rem;
+}
+
+.fixed {
+    position: fixed;
+    bottom: 0;
+    max-width: 540px;
 }
 
 .flex-container {

@@ -1,3 +1,25 @@
+// ****** Footer Toggle Width Sync
+
+try {
+    const ideaMargin = document.querySelector(".idea-margin")
+    const fixed = document.querySelector(".fixed")
+
+    console.log("Hello")
+
+    const syncWidth = () => {
+        const responsiveWidth = ideaMargin.getBoundingClientRect();
+        fixed.style.width = responsiveWidth.width + "px";
+        fixed.style.left = responsiveWidth.left + "px";
+    }
+
+    window.addEventListener("resize", syncWidth)
+    window.addEventListener("scroll", syncWidth)
+    syncWidth();
+} catch (error) {
+    console.error(error)
+}
+ 
+
 // ****** Principles Switch
 
 try {
