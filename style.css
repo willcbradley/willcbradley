@@ -228,7 +228,6 @@ button {
 .footer-grid {
     display: grid;
     flex-shrink: 0; /* prevent shrinking */
-    padding-inline: 1rem;
     background-color: white;
     grid-gap: 0.25rem;
     grid-template-rows: 50% 50%;
