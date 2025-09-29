@@ -1,10 +1,116 @@
+// ****** Arrow Key Navigation
+
+try {
+    const what = [
+        "what",
+        "wealth",
+        "reality",
+        "value",
+        "leverage",
+        "goodwill",
+        "runway",
+        "foundations",
+        "truth",
+        "creativity",
+        "specificity",
+        "transience",
+        "abstraction",
+        "compounding",
+        "commitment",
+        "reputation",
+        "luck",
+        "patience",
+        "hedging",
+        "downside",
+        "price",
+        "adventure",
+        "alltogether",
+        "what-next"
+    ]
+    const why = [
+        "why",
+        "hope",
+        "priority",
+        "brutality",
+        "malevolence",
+        "feedback",
+        "delusion",
+        "courage",
+        "structure",
+        "humility",
+        "weakness",
+        "aggression",
+        "competence",
+        "dialogue",
+        "sacrifice",
+        "optimism",
+        "honour",
+        "opportunity",
+        "audacity",
+        "all2gether",
+        "why-next"
+    ];
+
+    const pageName = window.location.pathname.slice(1, (window.location.pathname.slice.length) - 7)
+
+    console.log(pageName)
+
+    const whichPrinciples = () => {
+        if (what.includes(pageName)) {
+            return "what";
+        } else if (why.includes(pageName)) {
+            return "why";
+        } else {
+            return;
+        }
+    }
+
+    console.log(whichPrinciples())
+
+    const pageIndex = () => {
+        const which = whichPrinciples();
+        if (which === "what") {
+            return what.indexOf(pageName);
+        } else if (which === "why") {
+            return why.indexOf(pageName)
+        } else {
+            return;
+        }
+    }
+
+    console.log(pageIndex())
+
+    window.addEventListener("keydown", e => {
+        const i = pageIndex();
+        const p = whichPrinciples();
+
+        if (i === -1) return;
+
+        if (p === "why") {
+            if (e.key === "ArrowRight" && i < why.length - 1) {
+                window.location.href = why[i + 1];
+            } else if (e.key === "ArrowLeft" && i > 0) {
+                window.location.href = why[i - 1];
+            }
+        } else if (p === "what") {
+            if (e.key === "ArrowRight" && i < what.length - 1) {
+                window.location.href = what[i + 1];
+            } else if (e.key === "ArrowLeft" && i > 0) {
+                window.location.href = what[i - 1];
+            }
+        }
+
+    })
+ 
+} catch (error) {
+    console.error(error)
+}
+
 // ****** Footer Toggle Width Sync
 
 try {
     const ideaMargin = document.querySelector(".idea-margin")
     const fixed = document.querySelector(".fixed")
-
-    console.log("Hello")
 
     const syncWidth = () => {
         const responsiveWidth = ideaMargin.getBoundingClientRect();
