@@ -51,7 +51,7 @@ try {
         "why-next"
     ];
 
-    const pageName = window.location.pathname.slice(1, -5)
+    const pageName = window.location.pathname.slice(1)
 
     console.log(window.location.pathname)
     console.log(pageName)
