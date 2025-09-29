@@ -51,8 +51,9 @@ try {
         "why-next"
     ];
 
-    const pageName = window.location.pathname.slice(1, (window.location.pathname.slice.length) - 7)
+    const pageName = window.location.pathname.slice(1, -5)
 
+    console.log(window.location.pathname)
     console.log(pageName)
 
     const whichPrinciples = () => {
