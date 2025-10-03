@@ -74,7 +74,8 @@ button {
     padding: 0;
     height: 100%;
     line-height: 1;
-    transform: translateY(6px);
+    width: 3rem;
+    height: auto;
 }
 
 #mor-toggle {
@@ -82,7 +83,8 @@ button {
     padding: 0;
     height: 100%;
     line-height: 1;
-    transform: translateY(6px);
+    width: 3rem;
+    height: auto;
 }
 
 #medentry-ul {
@@ -221,31 +223,10 @@ button {
     color: #679f69;
     border-radius: 5px;
     padding: 0.5rem;
-    background: linear-gradient(to left, #fff 50%, #679f69 50%) right;
-    background-size: 200%;
-    transition: all 0.5s cubic-bezier(0.42, 0, 0.23, 1);
     max-height: 0.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.card-toggle:hover {
-    color: #fff;
-    border-color: #679f69;
-    background-position: left;
-    text-decoration: none;
-}
-
-.card-toggle:hover > h2 {
-    color: white;
-    transition: 0.5s;
-}
-
-.card-toggle:active {
-    background-color: #679f69;
-    color: #fff;
-    border-color: #679f69;
 }
 
 .contact-btn {
@@ -381,7 +362,6 @@ button {
     height: 1rem;
     cursor: pointer;
     position: relative;
-    bottom: 10px;
     user-select: none;
     -webkit-tap-highlight-color: transparent;
     -webkit-focus-ring-color: transparent;

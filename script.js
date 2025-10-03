@@ -152,13 +152,11 @@ try {
     }
 
     matToggle.addEventListener("click", () => {
-        mat.style.display = "none"
-        mor.style.display = "block"
+        showMor();
     })
 
     morToggle.addEventListener("click", () => {
-        mat.style.display = "block"
-        mor.style.display = "none"
+        showMat();
     })
 } catch (error) {
     console.error(error)
