@@ -69,6 +69,22 @@ button {
     border: none;
 }
 
+#mat-toggle {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    line-height: 1;
+    transform: translateY(6px);
+}
+
+#mor-toggle {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    line-height: 1;
+    transform: translateY(6px);
+}
+
 #medentry-ul {
     display: none;
 }
@@ -200,6 +216,38 @@ button {
     border-color: #a9a9a9;
 }
 
+.card-toggle {
+    border: 2px solid #679f69;
+    color: #679f69;
+    border-radius: 5px;
+    padding: 0.5rem;
+    background: linear-gradient(to left, #fff 50%, #679f69 50%) right;
+    background-size: 200%;
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.23, 1);
+    max-height: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-toggle:hover {
+    color: #fff;
+    border-color: #679f69;
+    background-position: left;
+    text-decoration: none;
+}
+
+.card-toggle:hover > h2 {
+    color: white;
+    transition: 0.5s;
+}
+
+.card-toggle:active {
+    background-color: #679f69;
+    color: #fff;
+    border-color: #679f69;
+}
+
 .contact-btn {
     grid-row: 1/2;
     grid-column: 2/6;
@@ -314,6 +362,19 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-block: 2rem;
+    max-height: 1.75rem;
+}
+
+.principles-header > div {
+    max-height: 1.75rem;
+}
+
+
+.principles-title {
+    font-weight: 400;
+    font-size: 1.75rem;
+    color: #679f69;
 }
 
 .principles-toggle {
