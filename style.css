@@ -468,6 +468,10 @@ button {
   cursor: pointer;
 }
 
+.theories-ul li {
+    margin-bottom: 0;
+}
+
 .title {
     color: #679f69;
     font-size: 3rem;
