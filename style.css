@@ -515,6 +515,10 @@ button {
     z-index: 999;
 }
 
+.zero-bottom {
+    margin-bottom: 0;
+}
+
 @media (max-width: 640px) {
     .body-container, .idea-container {
         margin-top: 0.8rem;
