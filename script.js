@@ -47,6 +47,7 @@ try {
         "honour",
         "opportunity",
         "audacity",
+        "humanity",
         "all2gether",
         "why-next"
     ];
