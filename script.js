@@ -24,6 +24,7 @@ try {
         "downside",
         "price",
         "adventure",
+        "wisdom",
         "alltogether",
         "what-next"
     ]
