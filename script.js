@@ -49,6 +49,7 @@ try {
         "opportunity",
         "audacity",
         "humanity",
+        "strength",
         "all2gether",
         "why-next"
     ];
