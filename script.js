@@ -41,6 +41,7 @@ try {
         "humility",
         "weakness",
         "aggression",
+        "choice",
         "competence",
         "dialogue",
         "sacrifice",
