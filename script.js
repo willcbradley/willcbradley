@@ -43,6 +43,7 @@ try {
         "aggression",
         "choice",
         "competence",
+        "risk",
         "dialogue",
         "sacrifice",
         "optimism",
