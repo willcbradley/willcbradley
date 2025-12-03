@@ -44,6 +44,7 @@ try {
         "choice",
         "competence",
         "risk",
+        "sincerity",
         "dialogue",
         "sacrifice",
         "optimism",
