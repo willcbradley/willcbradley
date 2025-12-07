@@ -284,6 +284,15 @@ button {
     grid-column: 6 / 7;
 }
 
+.found-me {
+    cursor: text;
+    color: #000;
+}
+
+.found-me:hover {
+    text-decoration: none;
+}
+
 .fundamentals-image {
     border: 1px solid #679f69;
     margin-block: 2rem;
