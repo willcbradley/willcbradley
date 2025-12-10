@@ -141,7 +141,7 @@ try {
     const mor = document.querySelector("#mor")
     const morToggle = document.querySelector("#mor-toggle")
     const matToggle = document.querySelector("#mat-toggle")
-
+    
     const showMat = () => {
         mat.style.display = "block"
         mor.style.display = "none"
@@ -165,6 +165,18 @@ try {
     morToggle.addEventListener("click", () => {
         showMat();
     })
+
+    window.addEventListener("keydown", e => {
+        if (e.key === "Enter") {
+            console.log("Enter")
+            if (mat.style.display === "block") {
+                showMor();
+            } else if (mor.style.display === "block") {
+                showMat();
+            }
+        }
+    })
+
 } catch (error) {
     console.error(error)
 }
