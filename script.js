@@ -168,12 +168,7 @@ try {
 
     window.addEventListener("keydown", e => {
         if (e.key === "Enter") {
-            console.log("Enter")
-            if (mat.style.display === "block") {
-                showMor();
-            } else if (mor.style.display === "block") {
-                showMat();
-            }
+            (mat.style.display === "block") ? showMor() : showMat()
         }
     })
 
