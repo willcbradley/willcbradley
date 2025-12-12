@@ -242,7 +242,7 @@ try {
     document.addEventListener('DOMContentLoaded', () => {
     const modal      = document.getElementById('videoModal');
     const videoEl    = document.getElementById('modalVideo');
-    const sourceEl   = videoEl.querySelector('source');
+    // const sourceEl   = videoEl.querySelector('source');
     const closeBtn   = document.getElementById('closeModal');
 
     // Open any link with .video-link
