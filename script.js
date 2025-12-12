@@ -264,7 +264,7 @@ try {
         modal.style.display = 'none';
     }
 
-    closeBtn.addEventListener('click', closeModal);
+    // closeBtn.addEventListener('click', closeModal);
 
     // click outside to close
     window.addEventListener('pointerdown', e => {
