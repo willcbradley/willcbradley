@@ -295,6 +295,9 @@ try {
     });
 
     document.addEventListener("DOMContentLoaded"), () => {
+
+        console.log("alive")
+
         const current = window.location.pathname.slice(1)
         const raw = localStorage.getItem("principlesVisited");
         const visited = raw ? new Set(JSON.parse(raw)) : new Set();
@@ -310,6 +313,7 @@ try {
                     const p = document.createElement("p");
                     p.innerHTML = `P.S. You've read all the (current) principles. Here's the <a href="./scale">epilogue</a>.`;
                     container.appendChild(p);
+                    console.log("p element appended:", container.innerHTML);
                 }
             }
         }
