@@ -300,7 +300,7 @@ try {
         const visited = raw ? new Set(JSON.parse(raw)) : new Set();
         const visitedAll = [...why, ...what].every(element => visited.has(element))
 
-        if (visited.size > 0 && (current === "whatnext" || current === "whynext")) {
+        if (visited.size > 0 && (current === "what-next" || current === "why-next")) {
             if ((localStorage.getItem("epilogue") !== "true")) {
                 localStorage.setItem("epilogue", visitedAll ? "true" : "false")
             }
