@@ -226,7 +226,7 @@ try {
         }
     });
 
-    document.addEventListener("DOMContentLoaded"), () => {
+    document.addEventListener("DOMContentLoaded", () => {
 
         console.log("alive")
 
@@ -249,7 +249,7 @@ try {
                 }
             }
         }
-    }
+    })
 } catch (error) {
     console.error(error)
 }
