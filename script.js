@@ -1,6 +1,5 @@
-// ****** Arrow Key Navigation
+// Filepath Arrays
 
-try {
     const what = [
         "what",
         "wealth",
@@ -57,6 +56,10 @@ try {
         "all2gether",
         "why-next"
     ];
+
+// ****** Arrow Key Navigation
+
+try {
 
     const pageName = window.location.pathname.slice(1)
 
