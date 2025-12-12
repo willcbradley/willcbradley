@@ -114,7 +114,7 @@ try {
     })
  
 } catch (error) {
-    console.error(error)
+  
 }
 
 // ****** Footer Toggle Width Sync
@@ -133,7 +133,7 @@ try {
     window.addEventListener("scroll", syncWidth)
     syncWidth();
 } catch (error) {
-    console.error(error)
+    
 }
  
 
@@ -176,7 +176,7 @@ try {
     })
 
 } catch (error) {
-    console.error(error)
+   
 }
 
 
@@ -205,7 +205,7 @@ try {
     })
 
 } catch (error) {
-    console.error (error)
+   
 }
 
 // ****** DL Expand/Collapse List
@@ -232,7 +232,7 @@ try {
     })
 
 } catch (error) {
-    console.error (error)
+    
 }
 
 // ****** Video Modal Open/Close Logic
@@ -273,5 +273,47 @@ try {
     });
 
 } catch {
-    console.error(error)
+    
+}
+
+// Principles Log (For ./Scale Unlock)
+
+try {
+    document.addEventListener("DOMContentLoaded", () => {
+        const current = window.location.pathname.slice(1);
+        const inWhat = what.includes(current);
+        const inWhy  = why.includes(current);
+
+        if (inWhat || inWhy) {
+            const raw = localStorage.getItem("principlesVisited");
+            const visited = raw ? new Set(JSON.parse(raw)) : new Set();
+
+            visited.add(current);
+
+            localStorage.setItem("principlesVisited", JSON.stringify([...visited]));
+        }
+    });
+
+    document.addEventListener("DOMContentLoaded"), () => {
+        const current = window.location.pathname.slice(1)
+        const raw = localStorage.getItem("principlesVisited");
+        const visited = raw ? new Set(JSON.parse(raw)) : new Set();
+        const visitedAll = [...why, ...what].every(element => visited.has(element))
+
+        if (visited.size > 0 && (current === "whatnext" || current === "whynext")) {
+            if ((localStorage.getItem("epilogue") !== "true")) {
+                localStorage.setItem("epilogue", visitedAll ? "true" : "false")
+            }
+            if (localStorage.getItem("epilogue") === "true") {
+                const container = document.querySelector(".idea-margin");
+                if (container) {
+                    const p = document.createElement("p");
+                    p.innerHTML = `P.S. You've read all the (current) principles. Here's the <a href="./scale">epilogue</a>.`;
+                    container.appendChild(p);
+                }
+            }
+        }
+    }
+} catch {
+
 }
