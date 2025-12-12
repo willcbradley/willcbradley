@@ -235,48 +235,7 @@ try {
     
 }
 
-// ****** Video Modal Open/Close Logic
-
-try {
-
-    document.addEventListener('DOMContentLoaded', () => {
-    const modal      = document.getElementById('videoModal');
-    const videoEl    = document.getElementById('modalVideo');
-    // const sourceEl   = videoEl.querySelector('source');
-    const closeBtn   = document.getElementById('closeModal');
-
-    // Open any link with .video-link
-    document.querySelectorAll('.video-link').forEach(link => {
-        link.addEventListener('click', e => {
-        console.log("Link Click Detected")
-            e.preventDefault();
-        const videoSrc = link.dataset.video;
-        sourceEl.src    = videoSrc;
-        videoEl.load();         // reload new source
-        modal.style.display = 'flex';
-        });
-    });
-
-    // Close logic
-    function closeModal() {
-        videoEl.pause();
-        sourceEl.src = '';
-        modal.style.display = 'none';
-    }
-
-    // closeBtn.addEventListener('click', closeModal);
-
-    // click outside to close
-    window.addEventListener('pointerdown', e => {
-        if (e.target === modal) closeModal();
-    });
-    });
-
-} catch {
-    
-}
-
-// Principles Log (For ./Scale Unlock)
+// Principles Log (For ./scale Unlock)
 
 try {
     document.addEventListener("DOMContentLoaded", () => {
@@ -318,6 +277,6 @@ try {
             }
         }
     }
-} catch {
-
+} catch (error) {
+    console.error(error)
 }
