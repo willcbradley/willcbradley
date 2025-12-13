@@ -260,7 +260,7 @@ try {
                     const card = document.createElement("a");
                     card.href = "./scale"
                     card.innerHTML = `<strong>Epilogue</strong>`;
-                    a.classList.add('card')
+                    card.classList.add('card')
                     container.appendChild(card);
                     console.log("p element appended:", container.innerHTML);
                 }
