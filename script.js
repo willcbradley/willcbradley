@@ -249,6 +249,23 @@ try {
                 }
             }
         }
+
+        if (visited.size > 0 && (current === "principles" || current === "principles#m")) {
+            if ((localStorage.getItem("epilogue") !== "true")) {
+                localStorage.setItem("epilogue", visitedAll ? "true" : "false")
+            }
+            if (localStorage.getItem("epilogue") === "true") {
+                const container = document.querySelectorAll(".flex-container");
+                if (container) {
+                    const card = document.createElement("a");
+                    card.href = "./scale"
+                    card.innerHTML = `<strong>Epilogue</strong>`;
+                    a.classList.add('card')
+                    container.appendChild(card);
+                    console.log("p element appended:", container.innerHTML);
+                }
+            }
+        }
     })
 } catch (error) {
     console.error(error)
