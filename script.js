@@ -255,14 +255,23 @@ try {
                 localStorage.setItem("epilogue", visitedAll ? "true" : "false")
             }
             if (localStorage.getItem("epilogue") === "true") {
-                const container = document.querySelectorAll(".flex-container");
-                if (container) {
+                const container1 = document.querySelectorAll(".flex-container")[0];
+                const container2 = document.querySelectorAll(".flex-container")[1];
+                if (container1) {
                     const card = document.createElement("a");
                     card.href = "./scale"
                     card.innerHTML = `<strong>Epilogue</strong>`;
                     card.classList.add('card')
-                    container.appendChild(card);
-                    console.log("p element appended:", container.innerHTML);
+                    container1.appendChild(card);
+                    console.log("p element appended:", container1.innerHTML);
+                }
+                if (container2) {
+                    const card = document.createElement("a");
+                    card.href = "./scale"
+                    card.innerHTML = `<strong>Epilogue</strong>`;
+                    card.classList.add('card')
+                    container2.appendChild(card);
+                    console.log("p element appended:", container2.innerHTML);
                 }
             }
         }
