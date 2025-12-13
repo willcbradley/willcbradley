@@ -243,7 +243,7 @@ try {
                 const container = document.querySelector(".idea-margin");
                 if (container) {
                     const p = document.createElement("p");
-                    p.innerHTML = `P.S. You've read all the (current) principles. Here's the <a href="./scale">epilogue</a>.`;
+                    p.innerHTML = `P.S. You've unlocked the <a href="./scale">epilogue</a>.`;
                     container.appendChild(p);
                     console.log("p element appended:", container.innerHTML);
                 }
