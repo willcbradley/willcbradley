@@ -203,65 +203,65 @@ try {
 
 // Principles Log (For ./scale Unlock)
 
-try {
-    document.addEventListener("DOMContentLoaded", () => {
-        const current = window.location.pathname.slice(1);
-        const inWhat = what.includes(current);
-        const inWhy  = why.includes(current);
+// try {
+//     document.addEventListener("DOMContentLoaded", () => {
+//         const current = window.location.pathname.slice(1);
+//         const inWhat = what.includes(current);
+//         const inWhy  = why.includes(current);
 
-        if (inWhat || inWhy) {
-            const raw = localStorage.getItem("principlesVisited");
-            const visited = raw ? new Set(JSON.parse(raw)) : new Set();
+//         if (inWhat || inWhy) {
+//             const raw = localStorage.getItem("principlesVisited");
+//             const visited = raw ? new Set(JSON.parse(raw)) : new Set();
 
-            visited.add(current);
+//             visited.add(current);
 
-            localStorage.setItem("principlesVisited", JSON.stringify([...visited]));
-        }
-    });
+//             localStorage.setItem("principlesVisited", JSON.stringify([...visited]));
+//         }
+//     });
 
-    document.addEventListener("DOMContentLoaded", () => {
+//     document.addEventListener("DOMContentLoaded", () => {
 
-        const current = window.location.pathname.slice(1)
-        const raw = localStorage.getItem("principlesVisited");
-        const visited = raw ? new Set(JSON.parse(raw)) : new Set();
-        const visitedAll = [...why, ...what].every(element => visited.has(element))
+//         const current = window.location.pathname.slice(1)
+//         const raw = localStorage.getItem("principlesVisited");
+//         const visited = raw ? new Set(JSON.parse(raw)) : new Set();
+//         const visitedAll = [...why, ...what].every(element => visited.has(element))
 
-        if (visited.size > 0 && (current === "what-next" || current === "why-next")) {
-            if ((localStorage.getItem("epilogue") !== "true")) {
-                localStorage.setItem("epilogue", visitedAll ? "true" : "false")
-            }
-            if (localStorage.getItem("epilogue") === "true") {
-                const container = document.querySelector(".idea-margin");
-                if (container) {
-                    const p = document.createElement("p");
-                    p.innerHTML = `P.S. Here's the <a href="./scale">epilogue</a>.`;
-                    container.appendChild(p);
-                }
-            }
-        }
+//         if (visited.size > 0 && (current === "what-next" || current === "why-next")) {
+//             if ((localStorage.getItem("epilogue") !== "true")) {
+//                 localStorage.setItem("epilogue", visitedAll ? "true" : "false")
+//             }
+//             if (localStorage.getItem("epilogue") === "true") {
+//                 const container = document.querySelector(".idea-margin");
+//                 if (container) {
+//                     const p = document.createElement("p");
+//                     p.innerHTML = `P.S. Here's the <a href="./scale">epilogue</a>.`;
+//                     container.appendChild(p);
+//                 }
+//             }
+//         }
 
-        if (visited.size > 0 && (current === "principles" || current === "principles#m")) {
-            if ((localStorage.getItem("epilogue") !== "true")) {
-                localStorage.setItem("epilogue", visitedAll ? "true" : "false")
-            }
-            if (localStorage.getItem("epilogue") === "true") {
-                const container1 = document.querySelectorAll(".flex-container")[0];
-                const container2 = document.querySelectorAll(".flex-container")[1];
-                if (container1) {
-                    container1.innerHTML += `<hr class="bookend">
-            <a href="./scale" class="card">
-                <strong>Epilogue</strong>
-            </a>`
-                }
-                if (container2) {
-                    container2.innerHTML += `<hr class="bookend">
-            <a href="./scale" class="card">
-                <strong>Epilogue</strong>
-            </a>`
-                }
-            }
-        }
-    })
-} catch (error) {
-    console.error(error)
-}
+//         if (visited.size > 0 && (current === "principles" || current === "principles#m")) {
+//             if ((localStorage.getItem("epilogue") !== "true")) {
+//                 localStorage.setItem("epilogue", visitedAll ? "true" : "false")
+//             }
+//             if (localStorage.getItem("epilogue") === "true") {
+//                 const container1 = document.querySelectorAll(".flex-container")[0];
+//                 const container2 = document.querySelectorAll(".flex-container")[1];
+//                 if (container1) {
+//                     container1.innerHTML += `<hr class="bookend">
+//             <a href="./scale" class="card">
+//                 <strong>Epilogue</strong>
+//             </a>`
+//                 }
+//                 if (container2) {
+//                     container2.innerHTML += `<hr class="bookend">
+//             <a href="./scale" class="card">
+//                 <strong>Epilogue</strong>
+//             </a>`
+//                 }
+//             }
+//         }
+//     })
+// } catch (error) {
+//     console.error(error)
+// }
