@@ -19,10 +19,6 @@ a {
     color: #679f69;
 }
 
-.idea-body > a.build-color {
-    color: #4983d0;
-}
-
 a:hover {
     text-decoration: underline;
 }
@@ -116,54 +112,11 @@ button {
     margin-top: 3rem;
 }
 
-.build-card {
-    font-size: 1.2rem;
-    text-align: left;
-    flex: 1;
-    border: 2px solid #474747;
-    color: #474747;
-    border-radius: 5px;
-    padding : 2.4rem 2rem;
-    background: linear-gradient(to left, #fff 50%, #474747 50%) right;
-    background-size: 200%;
-    transition: all 0.5s cubic-bezier(0.42, 0, 0.23, 1);
-}
-
-.build-card:hover {
-    color: #fff;
-    border-color: #474747;
-    background-position: left;
-    text-decoration: none;
-}
-
-.build-card:active {
-    background-color: #474747;
-    color: #fff;
-    border-color: #474747;
-}
-
-.build-home-card {
-    font-size: 1.2rem;
-    text-align: left;
-    flex: 1;
-    border: 2px solid #679f69;
-    color: #679f69;
-    border-radius: 5px;
-    padding : 2.4rem 2rem;
-    background: linear-gradient(to left, #fff 50%, #474747 50%) right;
-    background-size: 200%;
-    transition: all 0.5s cubic-bezier(0.42, 0, 0.23, 1);
-}
-
-.build-color {
-    color: #474747;
-}
-
-.build-subtitle {
-    font-weight: 400;
-    font-size: 1.75rem;
-    color: #474747;
-    margin-bottom: 2rem;
+.bookend {
+    margin-block: 3rem;
+    border: none;
+    height: 0.5px;
+    background-color: #679f69;
 }
 
 .card {
@@ -190,32 +143,6 @@ button {
     background-color: #679f69;
     color: #fff;
     border-color: #679f69;
-}
-
-.card-grey {
-    font-size: 1.2rem;
-    text-align: left;
-    flex: 1;
-    border: 2px solid #a9a9a9;
-    color: #a9a9a9;
-    border-radius: 5px;
-    padding : 2.4rem 2rem;
-    background: linear-gradient(to left, #fff 50%, #a9a9a9 50%) right;
-    background-size: 200%;
-    transition: all 0.5s cubic-bezier(0.42, 0, 0.23, 1);
-}
-
-.card-grey:hover {
-    color: #fff;
-    border-color: #a9a9a9;
-    background-position: left;
-    text-decoration: none;
-}
-
-.card-grey:active {
-    background-color: #a9a9a9;
-    color: #fff;
-    border-color: #a9a9a9;
 }
 
 .card-toggle {
@@ -293,11 +220,6 @@ button {
     text-decoration: none;
 }
 
-.fundamentals-image {
-    border: 1px solid #679f69;
-    margin-block: 2rem;
-}
-
 .grid {
     display: grid;
 }
@@ -322,10 +244,6 @@ button {
     letter-spacing: -0.05em;
     margin-bottom: 0.8rem;
     /* padding-left: 2rem; */
-}
-
-.last-update {
-    font-style: italic;
 }
 
 .main-li {
@@ -361,7 +279,6 @@ button {
     max-height: 1.75rem;
 }
 
-
 .principles-title {
     font-weight: 400;
     font-size: 1.75rem;
@@ -381,56 +298,6 @@ button {
 .project-btn {
     grid-row: 2/3;
     grid-column: 4/7;
-}
-
-.sell-card {
-    font-size: 1.2rem;
-    text-align: left;
-    flex: 1;
-    border: 2px solid #A1762B;
-    color: #A1762B;
-    border-radius: 5px;
-    padding : 2.4rem 2rem;
-    background: linear-gradient(to left, #fff 50%, #A1762B 50%) right;
-    background-size: 200%;
-    transition: all 0.5s cubic-bezier(0.42, 0, 0.23, 1);
-}
-
-.sell-card:hover {
-    color: #fff;
-    border-color: #A1762B;
-    background-position: left;
-    text-decoration: none;
-}
-
-.sell-card:active {
-    background-color: #A1762B;
-    color: #fff;
-    border-color: #A1762B;
-}
-
-.sell-home-card {
-    font-size: 1.2rem;
-    text-align: left;
-    flex: 1;
-    border: 2px solid #679f69;
-    color: #679f69;
-    border-radius: 5px;
-    padding : 2.4rem 2rem;
-    background: linear-gradient(to left, #fff 50%, #A1762B 50%) right;
-    background-size: 200%;
-    transition: all 0.5s cubic-bezier(0.42, 0, 0.23, 1);
-}
-
-.sell-color {
-    color: #A1762B;
-}
-
-.sell-subtitle {
-    font-weight: 400;
-    font-size: 1.75rem;
-    color: #A1762B;
-    margin-bottom: 2rem;
 }
 
 .show-toggle {
@@ -476,10 +343,6 @@ button {
   color: white;
   text-decoration: none;
   cursor: pointer;
-}
-
-.theories-ul li {
-    margin-bottom: 0;
 }
 
 .title {

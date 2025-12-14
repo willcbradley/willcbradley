@@ -258,20 +258,16 @@ try {
                 const container1 = document.querySelectorAll(".flex-container")[0];
                 const container2 = document.querySelectorAll(".flex-container")[1];
                 if (container1) {
-                    const card = document.createElement("a");
-                    card.href = "./scale"
-                    card.innerHTML = `<strong>Epilogue</strong>`;
-                    card.classList.add('card')
-                    container1.appendChild(card);
-                    console.log("p element appended:", container1.innerHTML);
+                    container1.innerHTML += `<hr class="bookend">
+            <a href="./scale" class="card">
+                <strong>Epilogue</strong>
+            </a>`
                 }
                 if (container2) {
-                    const card = document.createElement("a");
-                    card.href = "./scale"
-                    card.innerHTML = `<strong>Epilogue</strong>`;
-                    card.classList.add('card')
-                    container2.appendChild(card);
-                    console.log("p element appended:", container2.innerHTML);
+                    container2.innerHTML += `<hr class="bookend">
+            <a href="./scale" class="card">
+                <strong>Epilogue</strong>
+            </a>`
                 }
             }
         }
