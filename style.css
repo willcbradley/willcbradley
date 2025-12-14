@@ -114,9 +114,9 @@ button {
 
 .bookend {
     margin-block: 4rem;
-    border: none;
     height: 0.5px;
     background-color: #679f69;
+    border: #679f69;
 }
 
 .card {
