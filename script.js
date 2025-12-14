@@ -63,9 +63,6 @@ try {
 
     const pageName = window.location.pathname.slice(1)
 
-    console.log(window.location.pathname)
-    console.log(pageName)
-
     const whichPrinciples = () => {
         if (what.includes(pageName)) {
             return "what";
@@ -75,8 +72,6 @@ try {
             return;
         }
     }
-
-    console.log(whichPrinciples())
 
     const pageIndex = () => {
         const which = whichPrinciples();
@@ -88,8 +83,6 @@ try {
             return;
         }
     }
-
-    console.log(pageIndex())
 
     window.addEventListener("keydown", e => {
         const i = pageIndex();
@@ -228,8 +221,6 @@ try {
 
     document.addEventListener("DOMContentLoaded", () => {
 
-        console.log("alive")
-
         const current = window.location.pathname.slice(1)
         const raw = localStorage.getItem("principlesVisited");
         const visited = raw ? new Set(JSON.parse(raw)) : new Set();
@@ -245,7 +236,6 @@ try {
                     const p = document.createElement("p");
                     p.innerHTML = `P.S. Here's the <a href="./scale">epilogue</a>.`;
                     container.appendChild(p);
-                    console.log("p element appended:", container.innerHTML);
                 }
             }
         }
