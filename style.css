@@ -117,6 +117,7 @@ button {
     height: 0.5px;
     background-color: #679f69;
     border: #679f69;
+    clear: both;
 }
 
 .card {
