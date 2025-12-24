@@ -44,6 +44,7 @@
         "choice",
         "competence",
         "risk",
+        "constraint",
         "sincerity",
         "dialogue",
         "sacrifice",
