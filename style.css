@@ -311,6 +311,11 @@ button {
     text-decoration: underline;
 }
 
+.solo-img {
+    width: 100%;
+    height: auto;
+}
+
 .sticky {
     position: sticky;
     background-color: #fff;
