@@ -1,7 +1,7 @@
 // Filepath Arrays
 
     const what = [
-        "what",
+        "how",
         "wealth",
         "reality",
         "value",
@@ -25,7 +25,7 @@
         "adventure",
         "wisdom",
         "alltogether",
-        "what-next"
+        "how-next"
     ]
     const why = [
         "why",
