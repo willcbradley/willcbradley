@@ -267,6 +267,11 @@ button {
     grid-column: 1/4;
 }
 
+.no-nav, .no-nav div {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
 .principles-header {
     display: flex;
     justify-content: space-between;
