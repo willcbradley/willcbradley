@@ -59,7 +59,21 @@
         "why-next"
     ];
 
-// ****** Arrow Key Navigation
+try {
+
+const link = document.getElementById("principles-link");
+
+if (!localStorage.getItem("visited_principles")) {
+    link.href = "./disclaimer";
+}
+
+} catch (error) {
+
+    console.error(error);
+
+}
+
+// ****** Arrow Key Navigation + Tagging For ?Disclaimer
 
 try {
 
@@ -67,8 +81,10 @@ try {
 
     const whichPrinciples = () => {
         if (what.includes(pageName)) {
+            localStorage.setItem("visited_principles", "true");
             return "what";
         } else if (why.includes(pageName)) {
+            localStorage.setItem("visited_principles", "true");
             return "why";
         } else {
             return;
