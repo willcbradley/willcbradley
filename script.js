@@ -85,6 +85,8 @@ try {
 
     const pageName = window.location.pathname.slice(1)
 
+    if (pageName == "principles") {localStorage.setItem("visited_principles", "true")}
+
     const whichPrinciples = () => {
         if (what.includes(pageName)) {
             localStorage.setItem("visited_principles", "true");
