@@ -61,12 +61,14 @@
 
 try {
 
-const link = document.getElementById("principles-link");
 
 document.addEventListener("DOMContentLoaded", () => {
+    const link = document.getElementById("principles-link");
+
     if (!localStorage.getItem("visited_principles")) {
         link.href = "./disclaimer";
     }
+
 });
 
 } catch (error) {
