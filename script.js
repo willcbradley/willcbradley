@@ -63,9 +63,11 @@ try {
 
 const link = document.getElementById("principles-link");
 
-if (!localStorage.getItem("visited_principles")) {
-    link.href = "./disclaimer";
-}
+document.addEventListener("DOMContentLoaded", () => {
+    if (!localStorage.getItem("visited_principles")) {
+        link.href = "./disclaimer";
+    }
+});
 
 } catch (error) {
 
