@@ -65,6 +65,8 @@ try {
 document.addEventListener("DOMContentLoaded", () => {
     const link = document.getElementById("principles-link");
 
+    if (!link) return;
+
     if (!localStorage.getItem("visited_principles")) {
         link.href = "./disclaimer";
     }
