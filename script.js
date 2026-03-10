@@ -85,14 +85,12 @@ try {
 
     const pageName = window.location.pathname.slice(1)
 
-    if (pageName == "principles") {localStorage.setItem("visited_principles", "true")}
+    if (pageName == "disclaimer") {localStorage.setItem("visited_principles", "true")}
 
     const whichPrinciples = () => {
         if (what.includes(pageName)) {
-            localStorage.setItem("visited_principles", "true");
             return "what";
         } else if (why.includes(pageName)) {
-            localStorage.setItem("visited_principles", "true");
             return "why";
         } else {
             return;
