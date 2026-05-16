@@ -32,15 +32,15 @@ p {
     margin-left: 0;
 }
 
-.index-title {
-    text-align: left;
-}
-
 .body {
     max-width: 540px;
     width: 90%;
     margin-top: 3rem;
     margin-inline: auto;
+}
+
+.index-title {
+    text-align: left;
 }
 
 .index-title {
