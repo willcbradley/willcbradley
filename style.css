@@ -36,16 +36,16 @@ p {
     text-align: left;
 }
 
-.index-title {
-    color: #679f69;
-    font-size: 2rem;
-    letter-spacing: -0.05em;
-    margin-bottom: 0.8rem;
-}
-
-.middle {
+.body {
     max-width: 540px;
     width: 90%;
     margin-top: 3rem;
     margin-inline: auto;
+}
+
+.index-title {
+    color: #679f69;
+    font-weight: 650;
+    font-size: 1.75rem;
+    letter-spacing: -0.05em;
 }
