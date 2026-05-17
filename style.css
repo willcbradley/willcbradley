@@ -50,6 +50,6 @@ p {
 
 @media (max-width: 768px) {
     .body {
-        margin-left: 5dvw;
+        margin-left: 10dvw;
     }
 }
