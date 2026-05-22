@@ -35,10 +35,7 @@ p {
 .body {
     margin-top: 3rem;
     margin-left: 25dvw;
-}
-
-.index-title {
-    text-align: left;
+    margin-right: 40dvw;
 }
 
 .index-title {
@@ -46,10 +43,23 @@ p {
     font-weight: 650;
     font-size: 1.75rem;
     letter-spacing: -0.05em;
+    text-align: left;
+}
+
+.subtitle {
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+@media (769px <= width <= 1300px) {
+    .body {
+        margin-right: 25dvw;
+    }
 }
 
 @media (max-width: 768px) {
     .body {
         margin-left: 10dvw;
+        margin-right: 10dvw;
     }
 }
