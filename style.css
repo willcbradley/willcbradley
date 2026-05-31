@@ -32,10 +32,6 @@ p {
     margin-left: 0;
 }
 
-p, a {
-    letter-spacing: -0.05em;
-}
-
 .body {
     margin-top: 3rem;
     margin-left: 25dvw;
