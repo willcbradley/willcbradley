@@ -32,6 +32,10 @@ p {
     margin-left: 0;
 }
 
+p, a {
+    letter-spacing: -0.05em;
+}
+
 .body {
     margin-top: 3rem;
     margin-left: 25dvw;
@@ -61,11 +65,5 @@ p {
     .body {
         margin-left: 10dvw;
         margin-right: 10dvw;
-    }
-}
-
-@media (max-width: 480px) {
-    .oneline {
-        font-size: 0.86rem;
     }
 }
