@@ -62,4 +62,8 @@ p {
         margin-left: 10dvw;
         margin-right: 10dvw;
     }
+
+    .oneline {
+        font-size: 0.86rem;
+    }
 }
