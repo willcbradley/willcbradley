@@ -62,7 +62,9 @@ p {
         margin-left: 10dvw;
         margin-right: 10dvw;
     }
+}
 
+@media (max-width: 480px) {
     .oneline {
         font-size: 0.86rem;
     }
