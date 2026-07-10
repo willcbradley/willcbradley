@@ -28,7 +28,7 @@ html {
 }
 
 p {
-    margin-bottom: 1rem;
+    margin-bottom: 0.3rem;
     margin-left: 0;
 }
 
@@ -36,6 +36,25 @@ p {
     margin: 3rem auto 0;
     width: 90%;
     max-width: 540px;
+}
+
+.homelink {
+    display: block;
+    margin-bottom: -3px;
+}
+
+.idea-footer {
+    width: 90%;
+    max-width: 540px;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+}
+
+.idea-footer hr {
+    margin-bottom: 1rem;
 }
 
 .index-title {
