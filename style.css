@@ -28,7 +28,7 @@ html {
 }
 
 p {
-    margin-bottom: 0.3rem;
+    margin-bottom: 0.5rem;
     margin-left: 0;
 }
 
@@ -36,6 +36,21 @@ p {
     margin: 3rem auto 0;
     width: 90%;
     max-width: 540px;
+}
+
+.break {
+    margin-bottom: 3.5rem;
+}
+
+.date {
+    color: #898989;
+    margin-top: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+.essay-title {
+    margin-top: 1rem;
+    margin-bottom: 0.8rem;
 }
 
 .homelink {
@@ -63,9 +78,4 @@ p {
     font-size: 1.75rem;
     letter-spacing: -0.05em;
     text-align: left;
-}
-
-.subtitle {
-    font-weight: 700;
-    margin-bottom: 1rem;
 }
