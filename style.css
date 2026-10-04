@@ -58,6 +58,7 @@ p {
 .essay-title {
     margin-bottom: 2rem;
     font-weight: 600;
+    text-decoration: underline;
 }
 
 .flex {
