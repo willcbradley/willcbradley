@@ -49,28 +49,24 @@ p {
     margin-bottom: 1rem;
 }
 
+.essay-footer {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
 .essay-title {
-    margin-top: 1rem;
-    margin-bottom: 0.8rem;
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+
+.flex {
+    display: flex;
 }
 
 .homelink {
     display: block;
     margin-bottom: -3px;
-}
-
-.idea-footer {
-    width: 90%;
-    max-width: 540px;
-    padding-bottom: 1rem;
-    padding-top: 1rem;
-    position: fixed;
-    bottom: 0;
-    background-color: white;
-}
-
-.idea-footer hr {
-    margin-bottom: 1rem;
 }
 
 .index-title {
