@@ -49,6 +49,11 @@ p {
     margin-bottom: 1rem;
 }
 
+.essay-body {
+    margin: 3rem auto 3rem;
+    width: 90%;
+    max-width: 540px;
+}
 .essay-footer {
     flex-direction: row;
     justify-content: space-between;
