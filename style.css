@@ -44,6 +44,8 @@ p {
 }
 
 .date {
+    margin-top: 2rem;
+    display: block;
     color: #555555;
 }
 
@@ -52,26 +54,17 @@ p {
     width: 90%;
     max-width: 540px;
 }
-.essay-footer {
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 2rem;
-}
-
-.essay-footer p {
-    margin-bottom: 0;
-}
 
 .essay-subhead {
     font-weight: 600;
 }
 
 .essay-title {
+    margin-top: 1.6rem;
     margin-bottom: 1.6rem;
     font-weight: 500;
     text-decoration: underline;
     font-size: 115%;
-    color: #679f69;
 }
 
 .flex {
